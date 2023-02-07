@@ -10,11 +10,21 @@ public class App {
 
         System.out.println();
 
-        Author mLermontov = new Author ("Mikhail ", "Lermontov");
-        Book aHeroOfOurTime = new Book ("a Hero Of Our Time", mLermontov,1840 );
+        Author mLermontov = new Author ("Oscar ", "Lermontov");
+        Book aHeroOfOurTime = new Book ("The Picture of Dorian Gray", mLermontov,1840 );
         System.out.println("Автор книги: " + aHeroOfOurTime.getAuthor().getName() + aHeroOfOurTime.getAuthor().getSurname());
         System.out.println("Название книги: " + aHeroOfOurTime.getTitle());
         System.out.println("Год издания книги: " + aHeroOfOurTime.getYear());
+
+        System.out.println();
+
+        System.out.println(dorianGray);
+        System.out.println(aHeroOfOurTime);
+
+        System.out.println();
+
+        System.out.println(oscarWilde.equals(mLermontov));
+        System.out.println(dorianGray.equals(aHeroOfOurTime));
 
     }
 }
