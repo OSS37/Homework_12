@@ -10,7 +10,7 @@ public class App {
 
         System.out.println();
 
-        Author mLermontov = new Author ("Oscar ", "Lermontov");
+        Author mLermontov = new Author ("Oscar ", "Wilde");
         Book aHeroOfOurTime = new Book ("The Picture of Dorian Gray", mLermontov,1840 );
         System.out.println("Автор книги: " + aHeroOfOurTime.getAuthor().getName() + aHeroOfOurTime.getAuthor().getSurname());
         System.out.println("Название книги: " + aHeroOfOurTime.getTitle());
